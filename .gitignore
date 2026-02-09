@@ -1,0 +1,38 @@
+# Backend (Spring Boot)
+backend/build/
+backend/.gradle/
+backend/out/
+backend/*.jar
+backend/*.war
+backend/*.class
+backend/.settings/
+backend/bin/
+backend/target/
+
+# Frontend (React/Vite)
+ui/node_modules/
+ui/dist/
+ui/build/
+ui/.vite/
+ui/.env
+ui/.env.local
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.production.local
+.env.development.local
+
