@@ -8,31 +8,39 @@ backend/*.class
 backend/.settings/
 backend/bin/
 backend/target/
-
 # Frontend (React/Vite)
 ui/node_modules/
 ui/dist/
+ui/dist-ssr/
 ui/build/
 ui/.vite/
 ui/.env
 ui/.env.local
-
+*.local
 # IDE
 .idea/
 *.iml
-.vscode/
-
+.vscode/*
+!.vscode/extensions.json
 # OS
 .DS_Store
 Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 nul
-
 # Logs
+logs
 *.log
-
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 # Environment
 .env
 .env.local
 .env.production.local
 .env.development.local
-
